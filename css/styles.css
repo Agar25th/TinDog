@@ -1,0 +1,223 @@
+.body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* heading */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  padding-bottom: 25px;
+}
+
+h1,h2,h3{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+p {
+  color: grey;
+}
+
+/* title */
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+
+.iphone6{
+  position: relative;
+}
+
+/* Navbar */
+.navbar-brand {
+  padding-left: 0;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Ubuntu"
+}
+
+.navbar {
+  padding: 0 0 72px;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+/* button */
+.d-button {
+  margin: 5% 3% 5% 0;
+}
+
+.d-button:hover{
+  color:black;
+  background-color: white;
+}
+
+/* challenge */
+.col-mid {
+  text-align: center;
+  padding: 7%;
+}
+
+.md-img {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.md-img:hover {
+  color: #ff4c68;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 15%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.press-img{
+  width: 12%;
+  margin: 20px 20px 35px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.card{
+  margin: 10px 30px;
+}
+
+.bt1{
+  margin: 20px auto;
+}
+
+.bt2{
+  margin: 20px auto;
+}
+
+.bt2:hover,.bt3:hover{
+  background-color: white;
+  color: #000;
+}
+
+.row-pricing{
+  margin-top: 50px;
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.procing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width:1200px) {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+  .row-pricing{
+    text-align: center;
+  }
+}
+
+/* cta */
+#cta{
+  text-align: center;
+  background-color:#ff4c68;
+  padding: 130px;
+}
+
+.end-txt{
+  color:#fff;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 30px;
+}
+
+.end-button1{
+  margin: 20px 30px;
+}
+
+.end-button1:hover{
+  background-color: #fff;
+  color: black;
+}
+
+.end-button2:hover{
+  background-color: black;
+  color: white;
+}
+
+.el{
+  margin-top: 50px;
+  padding: 5px
+}
